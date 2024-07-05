@@ -1,0 +1,67 @@
+body,
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+  width: 100%;
+  background-image: url('/assets/arvore4.0.png'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-position: top; /* Centraliza a imagem */
+}
+
+#main #inputs {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main #inputs #btree-add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+#main #inputs h1 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+#main #inputs h1 .label {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#main #inputs .form-inline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-control {
+  width: 200px !important;
+}
+
+#main .node circle {
+  fill: #ffcccb;
+  stroke: #ff6347;
+  stroke-width: 3px;
+}
+
+#main .node text {
+  font: 14px sans-serif;
+}
+
+#main .link {
+  fill: none;
+  stroke: #888;
+  stroke-width: 2px;
+}
